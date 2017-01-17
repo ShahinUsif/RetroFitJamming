@@ -19,7 +19,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final String BASE_URL = "http://194.165.153.18:8181/AndroidWCFRestfull/AAPRestFullHttp.svc/";
+    public static final String BASE_URL = "http://xxx.xxx.xxx.xx:xxxx/AndroidWCFRestfull/AAPRestFullHttp.svc/";
 
     TextView tvDataBody;
 
