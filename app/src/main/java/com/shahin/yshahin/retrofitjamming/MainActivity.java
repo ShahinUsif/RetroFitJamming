@@ -1,25 +1,21 @@
 package com.shahin.yshahin.retrofitjamming;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.shahin.yshahin.retrofitjamming.Entities.CommentsScheme;
 import com.shahin.yshahin.retrofitjamming.Entities.InvitationsContainer;
-
-import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
-import retrofit2.http.Query;
 
 public class MainActivity extends AppCompatActivity {
 
